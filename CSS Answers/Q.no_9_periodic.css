@@ -1,0 +1,300 @@
+.parent-div {
+    display: flex;
+    position: relative;
+  }
+.group{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+  .group span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    height: 50px;
+    width: 50px;
+  }
+  .period{
+    position: absolute;
+    top: 2rem;
+    font-size: 20px;
+  }
+  .period span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+  }
+
+  .group-one-two {
+    margin-top: 3rem;
+    display: flex;
+    position: absolute;
+    left: 3.5rem;
+    top: 2.4rem;
+  }
+
+  .group-three-tweleve{
+    display: flex;
+    position: absolute;
+    top: 16.5rem;
+    left: 11rem;
+  }
+
+  .group-thirteen-eighteen{
+    display: flex;
+    position: absolute;
+    top: 9.9rem;
+    left: 47.5rem;
+  }
+
+  .gr-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(245, 190, 90);
+  }
+  .gr-2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(245, 190, 90);
+    position: relative;
+    top: 3.6rem;
+    left: -5px;
+  }
+
+  .gr-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+
+  .gr-4 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-5 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-6 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-7 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-8 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-9 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-10 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-11 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+  .gr-12 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: #6fbaf3;
+  }
+
+  .gr-13 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+  .gr-14 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+  .gr-15 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+  .gr-16 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+  .gr-17 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    
+  }
+  .gr-18 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe46f;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    position: relative;
+    top: -3.4rem;
+  }
+
+  .group-lanthenoids{
+    position: relative;
+  }
+
+  .group-one{
+    display: flex;
+    position: absolute;
+    top: 27rem;
+    left: 11rem;
+  }
+  .group-two{
+    display: flex;
+    position: absolute;
+    top: 31rem;
+    left: 11rem;
+  }
+  .group-one div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #85eb75;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2.8px;
+  }
+  .group-two div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #85eb75;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2.8px;
+  }
