@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+/* Header Style */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 5rem;
+}
+
+.logo img{
+    height: 4rem;
+    width: 16rem;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    position: relative;
+}
+.search img{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+input::placeholder{
+    padding-left: 5rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(7, 7, 110);
+}
+.search input{
+    height: 7vh;
+    width: 50vw;
+    border: 0.1rem solid rgb(7, 7, 110);
+    border-radius: 0.3rem;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+}
+.button a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: rgb(7, 7, 110);
+    font-family: sans-serif;
+}
+.button img:nth-of-type(1){
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 20rem;
+}
+.button img:nth-of-type(2){
+    height: 5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* Navbar Style */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 85vw;
+    margin: 0 6rem;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: rgb(7, 7, 110);
+    font-family: sans-serif; 
+}
+.nav-items img{
+    position: relative;
+    top: 0.5rem;
+}
+
+/* Crousel */
+
+.crousel{
+    display: flex;
+    background-color: #1b1b4ee3;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hardwork Section */
+
+.hardwork{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hardwork-top{
+    position: relative;
+    top: -5rem;
+}
+.hardwork-top h1{
+    font-size: 5.5rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin-bottom: 1.5rem;
+}
+.hardwork-top hr{
+    height: 0.6rem;
+    background-color: rgb(238, 82, 26);
+    width: 12vw;
+    margin: 0 auto;
+}
+.hardwork-bottom{
+    display: flex;
+    gap: 17rem;
+}
+.images{
+    text-align: center;
+}
+
+.images img{
+    height: 30vh;
+    width: 30vh;
+}
+
+.images p:nth-of-type(1){
+    font-size: 4rem;
+    color: rgba(7, 7, 110, 0.781);
+    font-weight: 600;
+}
+.images p:nth-of-type(2){
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 600;
+}
+
+
+/* Work Section */
+.work{
+    height: 60vh;
+    background-color: #dbd7d7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.work-top h1{
+    font-size: 5.5rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 5rem 0 10rem 0;
+}
+marquee img{
+    margin: 5rem;
+}
+.work-bottom img{
+    height: 10vh;
+}
