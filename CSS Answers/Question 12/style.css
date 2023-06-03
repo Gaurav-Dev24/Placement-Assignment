@@ -171,3 +171,461 @@ marquee img{
 .work-bottom img{
     height: 10vh;
 }
+
+
+/* Hall of Fame Section */
+.hall-of-fame{
+    height: 95vh;
+}
+
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem auto;
+    color:rgba(7, 7, 110, 0.781);
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    gap:3rem;
+    position: relative;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2.5rem;
+    height: 60vh;
+    width: 25vw;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55)
+}
+
+.card img:nth-of-type(1){
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+.card img:nth-of-type(2){
+    height: 2rem;
+    width: 2rem;
+    margin: 1.5rem 0;
+}
+
+.card span:nth-of-type(1){
+    font-size: 2.3rem;
+    color: rgba(7, 7, 110, 0.781);
+    font-weight: 600;
+}
+.card span:nth-of-type(2){
+    font-size: 1.5rem;
+    color: #918f8f;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #918f8f;
+    text-align: center;
+}
+
+.left-arrow{
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55)
+    
+}
+
+.left-arrow img {
+    rotate: 90deg;
+}
+
+.right-arrow{
+    display: flex;
+    box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55);
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.right-arrow img {
+    rotate: -90deg;
+}
+
+.view{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #6e6e70;
+    text-align: center;
+}
+
+
+/* Live Program */
+.live-section{
+    height: 100vh;
+    margin-bottom: 8rem;
+}
+
+.live-heading p{
+    font-size: 1.8rem;
+    color: #6e6e70;
+    font-weight: 500;
+    text-align: center;
+}
+
+.course{
+   height: 70vh;
+   width: 30vw;
+   padding: 1.5rem;
+   box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55);
+}
+
+.course h2{
+    font-size: 2rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 2rem 0;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.details>p{
+    position: relative;
+}
+.details>p:nth-of-type(1){
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #5b5b5c;
+    margin: 3rem 0;
+}
+.details>p:nth-of-type(2){
+    display: flex;
+    gap: 12rem;
+}
+
+.details>p span:nth-of-type(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+
+.details button{
+    height: 3rem;
+    width: 5rem;
+    background-color: lightblue;
+    border: 0.1rem solid rgb(30, 30, 253);
+    border-radius: 0.5rem;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 5rem;
+    gap: 5rem;
+}
+
+.course img{
+    height: 30vh;
+    width: 22vw;
+    border-radius: 1rem;
+}
+
+
+/* One Neuron */
+
+.oneNeuron-section{
+    height: 100vh;
+    margin-bottom: 12rem;
+}
+
+.oneNeuron-heading p{
+    font-size: 1.8rem;
+    color: #6e6e70;
+    font-weight: 500;
+    text-align: center;
+}
+
+.oneNeuron-details>p:nth-of-type(1){
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #5b5b5c;
+    margin: 2rem 0;
+}
+
+.oneNeuron-course{
+    height: 75vh;
+    width: 35vw;
+    padding: 1.5rem;
+    box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55);
+}
+
+.oneNeuron-course img{
+    height: 30vh;
+    width: 22vw;
+    border-radius: 1rem;
+}
+
+.oneNeuron-course h2{
+    font-size: 2rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 2rem 0;
+}
+
+.oneNeuron-details>p span:nth-of-type(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+/* Test series */
+
+.test-course{
+    height: 55vh;
+    width: 30vw;
+    padding: 1.5rem;
+    box-shadow: 0rem 0rem 20px rgba(171, 171, 171, 0.55);
+ }
+
+ .test-course img{
+    height: 30vh;
+    width: 22vw;
+    border-radius: 1rem;
+}
+
+.test-course h2{
+    font-size: 2rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 2rem 0;
+}
+
+/* Hackathon Conducted*/
+
+.hack-section{
+    height: 80%;
+    /* margin: 5rem 0; */
+}
+
+.hack-section>div h1{
+    font-size: 5rem;
+    color:rgba(7, 7, 110, 0.781);
+    text-align: center;
+}
+.hack-section>div{
+    text-align: center;
+}
+
+.hack-section img{
+    height: 100%;
+}
+
+/* Hackathon's Companies */
+
+.hack-companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    background-color: #ebe7e7;
+    margin: 2rem 0;
+}
+
+.hack-companies h1{
+    font-size: 5rem;
+    color:rgba(7, 7, 110, 0.781);
+    text-align: center;
+}
+
+marquee div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Our Products */
+.our-product-section{
+    margin: 5rem 0; 
+}
+.our-product-section>div h1{
+    font-size: 5rem;
+    color:rgba(7, 7, 110, 0.781);
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem ;
+    margin: 10rem 0;
+}
+
+.products-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.products-top div{
+    height: 30rem;
+    width: 30rem;
+    text-align: center;     
+}
+
+.products-top div h3{
+    font-size: 2.5rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 3rem 0;
+}
+.products-top div p{
+    font-size: 2rem;
+    color: #808080;
+    margin: 3rem 0;
+}
+
+.products-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.products-bottom div{
+    height: 30rem;
+    width: 30rem;
+    text-align: center;     
+}
+
+.products-bottom div h3{
+    font-size: 2.5rem;
+    color:rgba(7, 7, 110, 0.781);
+    margin: 3rem 0;
+}
+.products-bottom div p{
+    font-size: 2rem;
+    color: #808080;
+    margin: 3rem 0;
+}
+
+/*  */
+.partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin: 5rem 0;
+}
+
+.partners h1{
+    font-size: 5rem;
+    color:rgba(7, 7, 110, 0.781);
+    text-align: center;
+}
+
+.partners-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.partners-img img{
+    height: 20rem;
+    width: 20rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: #383CC1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding-left: 4rem;
+}
+
+/* First footer div */
+.first-div{
+   height: 80vh;
+   width: 25vw; 
+}
+
+.first-div div:nth-of-type(2){
+    padding: 3rem 0;
+}
+.first-div div:nth-of-type(3) div{
+    display: flex;
+}
+
+.first-div div:nth-of-type(2) svg{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+}
+.first-div div:nth-of-type(3) svg{
+    height: 3rem;
+    width: 5rem;
+    color: #fff;
+}
+.footer-span{
+    font-size: 2rem;
+    color: rgb(226, 224, 224);
+    padding-left: 2rem;
+}
+
+/* Second footer div */
+.second-div{
+    height: 60vh;
+    width: 25vw; 
+    position: relative;
+    top: -6rem;
+ }
+.second-div h1{
+    font-size: 3.5rem;
+    color: #fff;
+ }
+.second-div div:nth-of-type(2){
+    display: flex;
+    color: rgb(226, 224, 224);
+    font-size: 2rem;
+ }
+
+ /* Third Footer div */
+
+ .third-div{
+    height: 60vh;
+    width: 20vw; 
+    position: relative;
+    top: -6rem;
+ }
+.third-div h1{
+    font-size: 3.5rem;
+    color: #fff;
+ }
+.third-div div:nth-of-type(2){
+    display: flex;
+    color: rgb(226, 224, 224);
+    font-size: 2rem;
+ }
+
+ ul {
+    list-style-type: none;
+    padding: 1.8rem 0;
+    width: 50%;
+ }
+ ul li{
+    padding: 1rem 0;
+ }
