@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 4</title>
+  </head>
+  <body>
+    <div id="outer">
+      <div id="inner">
+        <button id="button">Click Me</button>
+      </div>
+    </div>
+
+    <script>
+      // Event Bubbling
+
+      document.getElementById("button").addEventListener("click", function () {
+        console.log("Button clicked");
+      });
+
+      document.getElementById("inner").addEventListener("click", function () {
+        console.log("Inner div clicked");
+      });
+
+      document.getElementById("outer").addEventListener("click", function () {
+        console.log("Outer div clicked");
+      });
+
+      // Output:
+
+      // Button clicked
+      // Inner div clicked
+      // Outer div clicked
+
+      //   Event Capturing
+
+    //   document.getElementById("button").addEventListener(
+    //     "click",
+    //     function () {
+    //       console.log("Button clicked");
+    //     },
+    //     true
+    //   );
+
+    //   document.getElementById("inner").addEventListener(
+    //     "click",
+    //     function () {
+    //       console.log("Inner div clicked");
+    //     },
+    //     true
+    //   );
+
+    //   document.getElementById("outer").addEventListener(
+    //     "click",
+    //     function () {
+    //       console.log("Outer div clicked");
+    //     },
+    //     true
+    //   );
+    </script>
+  </body>
+</html>

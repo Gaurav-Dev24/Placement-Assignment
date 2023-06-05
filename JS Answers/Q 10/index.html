@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 10</title>
+  </head>
+  <body>
+    <input id="search-input" type="text" placeholder="Search" />
+    <div id="search-results"></div>
+
+    <!-- Javascript Code -->
+    <script>
+      // Debounce function
+      function debounce(func, delay) {
+        let timeoutId;
+        return function () {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(func, delay);
+        };
+      }
+
+      // Function to fetch search results (simulated API call)
+      function fetchSearchResults() {
+        const searchTerm = document.getElementById("search-input").value;
+        const searchResultsElement = document.getElementById("search-results");
+
+        // Simulating API call with a delay
+        setTimeout(function () {
+          // Display search results
+          searchResultsElement.innerHTML = `Showing results for: ${searchTerm}`;
+        }, 500);
+      }
+
+      // Event listener with debounced function
+      const searchInput = document.getElementById("search-input");
+      const debouncedSearch = debounce(fetchSearchResults, 300);
+
+      searchInput.addEventListener("input", debouncedSearch);
+    </script>
+  </body>
+</html>
