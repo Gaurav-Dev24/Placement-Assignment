@@ -108,9 +108,9 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
+
 .hardwork-top{
     position: relative;
     top: -5rem;
@@ -416,7 +416,6 @@ marquee img{
 
 .hack-section{
     height: 80%;
-    /* margin: 5rem 0; */
 }
 
 .hack-section>div h1{
@@ -629,3 +628,570 @@ footer{
  ul li{
     padding: 1rem 0;
  }
+
+
+
+
+
+ /* ************ Media Query************** */
+
+ @media screen and (max-width: 480px) {
+    .header{
+        gap: 2rem;
+    }
+     header .button{
+        display: none;
+     }
+     input::placeholder{
+        font-size: 90%;
+    } 
+
+    .navbar{
+        display: none;
+    }
+
+    .hardwork{
+        margin: 6rem 0;
+    }  
+    .hardwork-top h1{
+        font-size: 3rem;
+    }
+
+
+    .work{
+        margin: 5rem 0;
+    }
+    .work-top h1{
+        font-size: 5rem;
+        margin: 5rem 0 3rem 0;  
+    }
+
+    .hall-of-fame{
+        margin: 5rem 0;
+        height: 60%;
+    }
+    .cards{
+        display: block;
+    }
+    .card{
+        height: 80%;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .cards .left-arrow, .right-arrow{
+        display: none;
+    }
+
+
+
+
+    .courses{
+        display: block;
+    }
+    .live-section{
+        height: 70%;
+    }
+    .course{
+        height: 80%;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .courses .left-arrow, .right-arrow{
+        display: none;
+    }
+    .course img {
+        width: 90%;
+    }
+
+
+
+    .oneNeuron-section{
+        height: 80%;
+    }
+    .oneNeuron-course{
+        height: 80%;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .oneNeuron-course img {
+        width: 90%;
+    }
+
+
+
+
+    .test-course{
+        height: 80%;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .test-course img {
+        width: 90%;
+    }
+
+    .hack-section img{
+        height: 50%;
+    }
+
+
+    .products{
+        gap: 5rem ;
+        margin: 2rem 0;
+    }
+    .products-top{
+        display: block;
+    }
+    .products-top div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-bottom{
+        display: block;
+    }
+    .products-bottom div{
+        width: auto;
+        margin: 2rem 0;
+    }
+
+
+    .partners-img{
+        justify-content: space-between;
+    }
+    .partners-img img {
+        height: 8rem;
+        width: 8rem;
+    }
+    .partners{
+        height: 70%;
+    }
+
+    footer{
+        display: block;
+        padding: 5rem;
+        height: 100%;
+    }
+    .first-div{
+        height: 50%;
+        width: auto;
+    }
+    .second-div{
+        width: auto;
+        top: 0rem;
+     }
+    .third-div{
+        width: auto;
+        top: 0rem;
+     }
+ }
+
+
+ @media (min-width: 481px) and (max-width:768px) {
+    header .button, .logo{
+        display: none;
+     }
+
+
+     .nav-items {
+        display: none;
+     }
+
+
+     .hardwork{
+        margin: 6rem 0;
+    }  
+    .hardwork-top h1{
+        font-size: 3rem;
+    }
+    
+
+
+     .work{
+        margin: 5rem 0;
+    }
+    .work-top h1{
+        font-size: 3.5rem;
+        margin: 5rem 0 3rem 0;  
+    }
+    
+
+    .hall-of-fame{
+        
+        height: 60%; 
+
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards div:nth-of-type(3){
+        display: none;
+    }
+    .cards div:nth-of-type(4){
+        display: none;
+    }
+    .card{
+        height: auto;
+        width: 50%;
+    }
+    .cards .left-arrow, .right-arrow{
+        height: 3rem;
+        width: 3rem;
+    }
+
+
+
+    .live-section{
+        height: 70%;
+    }
+    .courses .left-arrow, .right-arrow{
+        height: 3rem;
+        width: 3rem;
+    }
+    .courses div:nth-of-type(3){
+        display: none;
+    }
+    .courses div:nth-of-type(4){
+        display: none;
+    }
+    .course{
+        height: auto;
+        width: 50%;
+    }
+    .course img{
+        width: 100%;
+    }
+
+
+
+    .oneNeuron-course{
+        width: 60%;
+        height: 40%;
+    }
+    .oneNeuron-course img{
+        width: 100%;
+    }
+
+
+
+    .test-course{
+        width: 60%;
+        height: 40%;
+    }
+    .test-course img{
+        width: 100%;
+    }
+
+
+
+    .hack-section>div h1{
+        font-size: 3rem;
+    }
+    .hack-section img{
+        width: 50%;
+        height: 50%;
+    }
+
+
+    .hack-companies h1{
+        font-size: 3.5rem;
+    }
+
+
+    .products{
+        gap: 5rem ;
+        margin: 2rem 0;
+    }
+    .products-top{
+        display: block;
+    }
+    .products-top div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-top div p{
+        margin: 0 20rem;
+
+    }
+    .products-bottom{
+        display: block;
+    }
+    .products-bottom div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-bottom div p{
+        margin: 0 20rem;
+    }
+
+
+    
+    .partners-img img {
+        height: 15rem;
+        width: 15rem;
+    }
+    .partners h1{
+        font-size: 3.5rem;
+    }
+
+    footer{
+        display: block;
+        height: 100%;
+    }
+    .first-div{
+        height: auto;
+        width: 50%;
+        margin: 0rem 17rem;
+        padding: 2rem;
+    }
+    .second-div, .third-div{
+        height: auto;
+        width: 50%;
+        margin: 10rem 17rem;
+     }
+    
+ }
+
+
+
+ @media (min-width: 769px) and (max-width:1024px) {
+    header .button, .logo{
+        display: none;
+     }
+
+
+     .hardwork-top h1{
+        font-size: 3.7rem;
+    }
+
+
+    .work-top h1{
+        font-size: 4.5rem;
+        }
+
+
+    .cards div:nth-of-type(3){
+            display: none;
+        }
+    .cards div:nth-of-type(4){
+            display: none;
+        }
+    .card{
+            width: 48%;
+        }
+        
+
+
+    .courses div:nth-of-type(3){
+        display: none;
+    }
+    .courses div:nth-of-type(4){
+        display: none;
+    }
+    .course{
+        height: auto;
+        width: 50%;
+    }
+    .course img{
+        width: 100%;
+    }
+     .left-arrow, .right-arrow{
+        height: 3rem;
+        width: 3rem;
+    }
+    
+     
+    .oneNeuron-course{
+        width: 60%;
+        height: 40%;
+    }
+    .oneNeuron-course img{
+        width: 100%;
+    }
+
+
+    .test-course{
+        width: 60%;
+        height: 40%;
+    }
+    .test-course img{
+        width: 100%;
+    }
+
+
+    .hack-section>div h1{
+        font-size: 4rem;
+    }
+    .hack-section img{
+        height: 50%;
+    }
+
+
+    .hack-companies h1{
+        font-size: 4.5rem;
+    }
+
+
+    .products{
+        gap: 5rem ;
+        margin: 2rem 0;
+    }
+    .products-top{
+        display: block;
+    }
+    .products-top div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-top div p{
+        margin: 0 22rem;
+
+    }
+    .products-bottom{
+        display: block;
+    }
+    .products-bottom div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-bottom div p{
+        margin: 0 20rem;
+    }
+
+
+    .partners h1{
+        font-size: 4rem;
+    }
+
+    footer{
+        display: block;
+        height: 100%;
+    }
+    .first-div{
+        height: auto;
+        width: 50%;
+        margin: 0rem 25rem;
+        padding: 2rem;
+    }
+    .second-div, .third-div{
+        height: auto;
+        width: 50%;
+        margin: 10rem 25rem;
+     }
+ }
+
+
+ @media (min-width: 1025px) and (max-width:1260px) {
+    header .button, .logo{
+        display: none;
+     }
+
+
+     .hardwork-top h1{
+        font-size: 4rem;
+    }
+
+
+    .work-top h1{
+        font-size: 5rem;
+    }
+
+
+    .hall-of-fame{
+        height: 80%;
+    }
+    .cards div:nth-of-type(3){
+        display: none;
+    }
+.cards div:nth-of-type(4){
+        display: none;
+    }
+.card{
+        width: 42%;
+        height: 70%;
+    }
+
+    .courses div:nth-of-type(3){
+        display: none;
+    }
+    .courses div:nth-of-type(4){
+        display: none;
+    }
+    .course{
+        height: auto;
+        width: 42%;
+    }
+    .course img{
+        width: 100%;
+    }
+     .left-arrow, .right-arrow{
+        height: 3rem;
+        width: 3rem;
+    }
+
+
+    .oneNeuron-course{
+        width: 50%;
+        height: 50%;
+    }
+    .oneNeuron-course img{
+        width: 100%;
+    }
+
+
+    .test-course{
+        width: 50%;
+        height: 50%;
+    }
+    .test-course img{
+        width: 100%;
+    }
+
+
+
+    
+    .products{
+        gap: 5rem ;
+        margin: 2rem 0;
+    }
+    .products-top{
+        display: block;
+    }
+    .products-top div{
+        width: auto;
+        margin: 2rem 0;
+    }
+    .products-top div p{
+        margin: 0 22rem;
+    }
+    .products-bottom{
+        display: block;
+    }
+    .products-bottom div{
+        width: auto;
+        margin: 5rem 0;
+    }
+    .products-bottom div p{
+        margin: 0 35rem;
+    }
+
+
+    footer{
+        display: block;
+        height: 100%;
+    }
+    .first-div{
+        height: auto;
+        width: 45%;
+        margin: 0rem 30rem;
+        padding: 3rem;
+    }
+    .second-div, .third-div{
+        height: auto;
+        width: 45%;
+        margin: 10rem 30rem;
+     }
+
+ }
+ 
+
+ 
