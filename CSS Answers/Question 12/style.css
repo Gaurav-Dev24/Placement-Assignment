@@ -191,7 +191,7 @@ marquee img{
     justify-content: center;
     margin: 5rem;
     gap:3rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .card{
@@ -1194,4 +1194,89 @@ footer{
  }
  
 
- 
+@media (min-width:1261px){
+    .search img{
+        height: 70%;
+    }
+
+
+    .crousel{
+        margin: 4rem 0;
+        height: 100%;
+    }
+
+
+    .hardwork-bottom{
+        gap: 8rem;
+    }
+
+    .cards{
+        gap: 1rem;
+        position: relative;
+        left: -5rem;
+    }
+
+
+    .left-arrow, .right-arrow{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .courses{
+        position: relative;
+        left: -5rem;
+        gap: 1rem;
+    }
+    .course{
+        width: 40%;
+        height: auto;
+    }
+    .course img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .live-section{
+        height: 100%;
+    }
+
+
+
+    .oneNeuron-section{
+        height: 100%;
+    }
+    .oneNeuron-course{
+        width: 40%;
+        height: auto;
+    }
+    .oneNeuron-course img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .test-section{
+        height: 100%;
+    }
+    .test-course{
+        width: 40%;
+        height: auto;
+    }
+    .test-course img{
+        width: 100%;
+        height: auto;
+    }
+
+    .products-top{
+        gap: 5rem;
+    }
+
+    footer{
+        height: 100%;
+    }
+    .first-div{
+        height: 100%;
+        margin: 2rem 0;
+    }
+}
