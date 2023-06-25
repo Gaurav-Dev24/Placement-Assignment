@@ -1,0 +1,40 @@
+.scoreboard {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px #888;
+    border-radius: 10%;
+    width: 100%;
+    margin: 3rem auto;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .x-score {
+    color: var(--xRed);
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .o-score {
+    color: var(--oBlack);
+    width: 100%;
+    padding: 15px;
+  }
+  .o-tie {
+    color: rgb(0, 3, 86);
+    width: 100%;
+    padding: 15px;
+  }
+  .xScoreboard {
+    border-bottom: 5px solid rgb(197, 1, 1);
+  }
+  
+  .oScoreboard {
+    border-bottom: 5px solid rgb(68, 68, 68);
+  }
+  
+  .oTie {
+    border-bottom: 5px solid rgb(0, 3, 86);
+  }
+  
